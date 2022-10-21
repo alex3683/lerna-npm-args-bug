@@ -1,0 +1,8 @@
+{
+  "name": "test",
+  "version": "0.0.2",
+  "dependencies": {
+    "eslint": "^8.11.0",
+    "eslint-plugin-react-app": "^6.2.2"
+  }
+}

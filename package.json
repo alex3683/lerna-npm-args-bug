@@ -1,6 +1,18 @@
 {
   "private": true,
-  "devDependencies": {
-    "lerna": "^5.4.3"
+  "workspaces": {
+    "packages": [
+      "packages/**"
+    ]
+  },
+  
+  "dependencies": {
+    "lerna": "^5.4.3",
+    "eslint": "^8.11.0",
+    "eslint-plugin-react-app": "^6.2.2"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "set-version": "lerna version --no-git-tag-version --no-push --exact --force-publish --yes"
   }
 }
